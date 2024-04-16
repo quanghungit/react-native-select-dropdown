@@ -75,7 +75,7 @@ const Input = (
           autoComplete={'off'}
           autoCorrect={false}
           autoCapitalize={'none'}
-          autoFocus={true}
+          autoFocus={false}
         />
         {defaults.renderRight && <View style={styles.pressableRight}>{defaults.renderRight()}</View>}
       </View>
